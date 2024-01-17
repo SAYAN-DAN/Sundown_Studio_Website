@@ -1,5 +1,9 @@
 
 @font-face {
+  font-family:Mediu;
+  src: url(./fonts/64d3dd9edfb41666c35b15bf_NeueHaasDisplay-Mediu.ttf);
+}
+@font-face {
   font-family:Roman ;
   src: url(./fonts/64d3dd9edfb41666c35b15c0_NeueHaasDisplay-Roman.ttf);
 }
