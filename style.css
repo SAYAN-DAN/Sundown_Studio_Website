@@ -1,10 +1,9 @@
-
 @font-face {
-  font-family:Mediu;
+  font-family: Mediu;
   src: url(./fonts/64d3dd9edfb41666c35b15bf_NeueHaasDisplay-Mediu.ttf);
 }
 @font-face {
-  font-family:Roman ;
+  font-family: Roman;
   src: url(./fonts/64d3dd9edfb41666c35b15c0_NeueHaasDisplay-Roman.ttf);
 }
 * {
@@ -21,7 +20,7 @@ html {
 .page1 {
   width: 100%;
   height: 100vh;
-  background-color: #EFEAE3;
+  background-color: #efeae3;
 }
 
 .nav {
@@ -36,7 +35,6 @@ html {
 .nav-right {
   display: flex;
   gap: 10px;
-
 }
 
 .nav-right a {
@@ -45,5 +43,25 @@ html {
   border: 1px solid rgb(125, 125, 125);
   border-radius: 50px;
   color: #000;
-  font-family:Roman ;
+  font-family: Roman;
+  position: relative;
+}
+
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  left: 0;
+  bottom: -100%;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+
+.nav-right a:hover::after {
+  bottom: 0;
+  color: white;
+  border-radius: 0;
+  z-index: 99;
 }
