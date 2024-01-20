@@ -37,17 +37,20 @@ html {
   gap: 10px;
 }
 
-.nav-right a {
+.nav-right h4 {
   text-decoration: none;
   padding: 11px 25px;
   border: 1px solid rgb(125, 125, 125);
   border-radius: 50px;
+  transition: all ease 0.3s;
   color: #000;
   font-family: Roman;
   position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.nav-right a::after {
+.nav-right h4::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -59,21 +62,21 @@ html {
   transition: all ease 0.3s;
 }
 
-.nav-right a:hover::after {
+.nav-right h4:hover::after {
   bottom: 0;
-  color: white;
+  /* color: white; */
   border-radius: 0;
-  z-index: 99;
+  /* z-index: 99; */
 }
 
-.nav-right a h4 {
+.nav-right h4 a {
   font-weight: 100;
   position: relative;
   z-index: 9;
   color: #000;
+  text-decoration: none;
 }
 
-.nav-right a:hover h4 {
+.nav-right h4:hover a {
   color: #fff;
-  z-index: 99;
 }
