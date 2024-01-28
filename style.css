@@ -19,7 +19,7 @@ html {
 
 .page1 {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #efeae3;
   padding: 0 2vw;
 }
@@ -83,16 +83,65 @@ html {
 }
 
 .center {
-  height: 65vh;
+  height: 75vh;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
+  font-family: Mediu;
   align-items: flex-end;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 3vw;
 }
 
-.center h2 {
+.center-left h2 {
   font-family: Mediu;
+  font-weight: 900;
+  width: 25vw;
+  font-size: 1.6vw;
+}
+
+.center-right h2 {
+  font-size: 11vw;
+  line-height: 9vw;
+  text-align: right;
+}
+
+.hero-shape {
+  position: absolute;
+  width: 46vw;
+  height: 36vw;
+  right: 0;
+  top: 78vh;
+}
+.page1 video {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 4vw;
+}
+
+.circle-1 {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  filter: blur(20px);
+  position: absolute;
+  background-color: orangered;
+}
+.circle-2 {
+  height: 30vw;
   width: 30vw;
-  font-size: 2vw;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(20px);
+  background-color: orangered;
+}
+.circle-3 {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(20px);
+  background-color: orangered;
 }
