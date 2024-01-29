@@ -114,6 +114,7 @@ html {
   right: 0;
   top: 78vh;
 }
+
 .page1 video {
   width: 100%;
   border-radius: 20px;
@@ -129,6 +130,7 @@ html {
   position: absolute;
   background-color: orangered;
 }
+
 .circle-2 {
   height: 30vw;
   width: 30vw;
@@ -137,6 +139,7 @@ html {
   filter: blur(20px);
   background-color: orangered;
 }
+
 .circle-3 {
   height: 30vw;
   width: 30vw;
