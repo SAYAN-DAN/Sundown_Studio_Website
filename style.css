@@ -176,3 +176,55 @@ html {
     transform: translate(-20%, 30%);
   }
 }
+
+.page2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #efeae3;
+  padding: 8vw 0;
+}
+
+.moving-element {
+  /* display: inline-block; */
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.moving-element::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  white-space: nowrap;
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.moving-element .container h1 {
+  font-family: Mediu;
+  font-size: 9vw;
+  /* background-color: rgb(249, 188, 96); */
+  display: inline-block;
+}
+
+.gola {
+  height: 70px;
+  width: 70px;
+  white-space: nowrap;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fe330a;
+  margin: 1vw 1.5vw;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+  
+}
