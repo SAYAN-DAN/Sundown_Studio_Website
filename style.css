@@ -182,6 +182,7 @@ html {
   min-height: 100vh;
   background-color: #efeae3;
   padding: 8vw 0;
+  position: relative;
 }
 
 .moving-element {
@@ -244,6 +245,8 @@ html {
   font-size: 4.2vw;
   width: 60%;
   line-height: 4vw;
+  position: relative;
+  z-index: 9;
 }
 
 .buttom-part2 {
@@ -259,4 +262,37 @@ html {
   font-family: Roman;
   margin-top: 50px;
   font-size: 1vw;
+}
+
+.page2 .goory {
+  width: 35vw;
+  height: 35vw;
+  position: absolute;
+  background: linear-gradient(to top right, #ff0000, #ff9844);
+  border-radius: 50%;
+  top: 55%;
+  left: 25%;
+  filter: blur(20px);
+  animation-name: goory;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes goory {
+  from {
+    filter: blur(20px);
+    transform: translate(10%, -10%) skew(0);
+  }
+  to {
+    filter: blur(30px);
+    transform: translate(-10%, 10%) skew(-12deg);
+  }
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #efeae3;
 }
