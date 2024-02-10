@@ -340,5 +340,9 @@ html {
   border-radius: 10px;
   position: fixed;
   left: 50%;
-  top: ;
+  top: 25%;
+  z-index: 99;
+  display: none;
+  background-size: cover;
+  background-position: center;
 }
