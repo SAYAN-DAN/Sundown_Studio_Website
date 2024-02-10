@@ -194,6 +194,7 @@ html {
 .moving-element::-webkit-scrollbar {
   display: none;
 }
+
 .container {
   white-space: nowrap;
   display: inline-block;
@@ -202,6 +203,7 @@ html {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 .moving-element .container h1 {
   font-family: Mediu;
   font-size: 9vw;
@@ -296,6 +298,7 @@ html {
   min-height: 100vh;
   background-color: #efeae3;
 }
+
 .elem {
   height: 120px;
   font-family: Mediu;
@@ -309,20 +312,33 @@ html {
   cursor: pointer;
   overflow: hidden;
 }
+
 .elem h2 {
   font-size: 3.5vw;
   position: relative;
   z-index: 99;
 }
+
 .elem .overlay {
   height: 100%;
   width: 100%;
-  background-color: #FF9831;
+  background-color: #ff9831;
   position: absolute;
   left: 0;
   top: -100%;
   transition: all ease 0.3s;
 }
+
 .elem:hover .overlay {
   top: 0;
+}
+
+.fixed-image {
+  height: 30vw;
+  width: 23vw;
+  background-color: red;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  top: ;
 }
