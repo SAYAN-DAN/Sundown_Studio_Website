@@ -336,7 +336,7 @@ html {
 .fixed-image {
   height: 30vw;
   width: 23vw;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 10px;
   position: fixed;
   left: 50%;
