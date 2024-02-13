@@ -353,10 +353,46 @@ html {
 }
 
 .page4 {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
+  font-family: Roman;
   background-color: #efeae3;
+  padding: 8vw 2vw;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #efeae3;
+  border-left: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.swiper-slide {
+  width: 30%;
+}
+/* 
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+} */
 
 .page5 {
   height: 100vh;
@@ -372,7 +408,7 @@ html {
   width: 100%;
   bottom: 0;
   background-color: #000;
-  color: #EEE9E2;
+  color: #eee9e2;
   display: flex;
   /* align-items: flex-end; */
   justify-content: flex-end;
@@ -383,12 +419,12 @@ html {
   font-size: 23vw;
   position: relative;
   top: 3.5vw;
-  color: #EEE9E2;
+  color: #eee9e2;
 }
 
-.footer-div{
+.footer-div {
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   background-color: #ff0000;
 }
 
@@ -403,7 +439,7 @@ html {
 .footer-bottom {
   border-top: 1px solid #898989;
   width: 100%;
-  height: 6vw;
+  height: 5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -413,5 +449,5 @@ html {
 .footer-bottom h4 {
   font-family: Roman;
   font-weight: 100;
-  font-size: 1.1vw
+  font-size: 1.1vw;
 }
